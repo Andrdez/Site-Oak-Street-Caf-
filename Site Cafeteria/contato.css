@@ -1,0 +1,35 @@
+.comunicacao{
+    display: flex;
+    justify-content: center; /* centraliza */
+    gap: 80px; /* espaço entre eles */
+    align-items: center;
+}
+
+.rede{
+    text-align: center;
+}
+
+.rede img{
+    width: 100px;
+}
+.rede a img{
+    width: 100px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.rede a img:hover{
+    transform: scale(1.1);
+}
+.comunicacao p{
+     margin-bottom: 20px;
+}
+.gato{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px; 
+}
+
+.gato img{
+    width: 300px; 
+}

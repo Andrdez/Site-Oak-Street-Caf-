@@ -1,0 +1,54 @@
+.section{
+    display: flex;
+    justify-content: space-around; /* espaço entre elas */
+    align-items: flex-start;
+    gap: 80px; /* distância */
+    padding: 30px;
+}
+.Cafeteriamaneira{
+    font-size: 30px;
+}
+.patinho{
+    width: 300px;
+    height: auto;
+}
+
+.comidas,
+.bebidas{
+    width: 45%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.comidas img,
+.bebidas img{
+    width: 120px;
+    display: block;
+    margin: auto;
+}
+.comidas p,
+.bebidas p{
+    margin-bottom: 20px;
+}
+.tabela_tamanhos{
+    width: 100%;
+    margin: 15px 0 40px;
+    border-collapse: collapse;
+}
+
+.tabela_tamanhos th,
+.tabela_tamanhos td{
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabela_tamanhos th{
+    background-color: #d6a66a;
+}
+
+.tabela_tamanhos tr:hover{
+    background-color: #f5f5f5;
+}
